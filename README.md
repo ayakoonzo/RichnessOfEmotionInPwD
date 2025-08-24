@@ -1,5 +1,5 @@
 # Richness of Emotion in People with Dementia
-Data set and scripts for data processing and visualization used in "Richness of Emotion in People with Dementia"
+Dataset and scripts for data processing and visualization used in "Richness of Emotion in People with Dementia"
 
 ## License
 
