@@ -1,5 +1,6 @@
 library(ggplot2)
 
+(wd <- getwd())
 df <- read.csv(paste0(wd, "/S2-multiple-regression/", "2_exp2_questionnaire.csv"), fileEncoding = "UTF-8")
 
 # 重回帰 multiple regression
