@@ -1,0 +1,146 @@
+[1] "Q3.1_OthND.anger"
+
+Call:
+lm(formula = as.formula(formula_str), data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.3979 -0.3476 -0.1100  0.6734  1.9609 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.562582   0.322084   4.851 2.48e-06 ***
+age          0.006637   0.006106   1.087   0.2783    
+gendermale  -0.043284   0.141523  -0.306   0.7600    
+gendernoAns  0.672138   0.394731   1.703   0.0902 .  
+Q4_privateD  0.104850   0.046320   2.264   0.0247 *  
+Q5_jobD     -0.002199   0.036895  -0.060   0.9525    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8576 on 198 degrees of freedom
+Multiple R-squared:  0.05046,	Adjusted R-squared:  0.02649 
+F-statistic: 2.105 on 5 and 198 DF,  p-value: 0.06641
+
+[1] "Q3.2_OthND.disgust"
+
+Call:
+lm(formula = as.formula(formula_str), data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.26833 -0.79825 -0.03523  0.77784  2.14414 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.2804855  0.3405829   3.760 0.000224 ***
+age          0.0109748  0.0064562   1.700 0.090722 .  
+gendermale  -0.0430720  0.1496512  -0.288 0.773788    
+gendernoAns  0.8597954  0.4174022   2.060 0.040719 *  
+Q4_privateD  0.0739638  0.0489801   1.510 0.132618    
+Q5_jobD      0.0005713  0.0390144   0.015 0.988332    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9068 on 198 degrees of freedom
+Multiple R-squared:  0.04947,	Adjusted R-squared:  0.02546 
+F-statistic: 2.061 on 5 and 198 DF,  p-value: 0.0719
+
+[1] "Q3.3_OthND.fear"
+
+Call:
+lm(formula = as.formula(formula_str), data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.05826 -0.85124  0.04666  0.41038  2.28772 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.284021   0.340724   3.769 0.000217 ***
+age          0.014180   0.006459   2.195 0.029297 *  
+gendermale   0.010471   0.149713   0.070 0.944310    
+gendernoAns  0.606617   0.417575   1.453 0.147886    
+Q4_privateD -0.028351   0.049000  -0.579 0.563528    
+Q5_jobD      0.005669   0.039031   0.145 0.884669    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9072 on 198 degrees of freedom
+Multiple R-squared:  0.03102,	Adjusted R-squared:  0.006547 
+F-statistic: 1.268 on 5 and 198 DF,  p-value: 0.2794
+
+[1] "Q3.4_OthND.happiness"
+
+Call:
+lm(formula = as.formula(formula_str), data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.6325 -0.5273 -0.3265  0.5093  1.7251 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2.5787081  0.2884783   8.939 2.77e-16 ***
+age         -0.0017649  0.0054685  -0.323   0.7472    
+gendermale  -0.1670518  0.1267566  -1.318   0.1891    
+gendernoAns -0.7339669  0.3535452  -2.076   0.0392 *  
+Q4_privateD  0.0006606  0.0414868   0.016   0.9873    
+Q5_jobD      0.0326532  0.0330458   0.988   0.3243    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7681 on 198 degrees of freedom
+Multiple R-squared:  0.03425,	Adjusted R-squared:  0.009864 
+F-statistic: 1.404 on 5 and 198 DF,  p-value: 0.2242
+
+[1] "Q3.5_OthND.sadness"
+
+Call:
+lm(formula = as.formula(formula_str), data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.2462 -0.3440 -0.1585  0.6660  1.9909 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.727336   0.320735   5.386 2.04e-07 ***
+age          0.008958   0.006080   1.473    0.142    
+gendermale  -0.164520   0.140930  -1.167    0.244    
+gendernoAns  0.426542   0.393078   1.085    0.279    
+Q4_privateD  0.035473   0.046126   0.769    0.443    
+Q5_jobD     -0.027829   0.036741  -0.757    0.450    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.854 on 198 degrees of freedom
+Multiple R-squared:  0.03318,	Adjusted R-squared:  0.008769 
+F-statistic: 1.359 on 5 and 198 DF,  p-value: 0.2413
+
+[1] "Q3.6_OthND.surprise"
+
+Call:
+lm(formula = as.formula(formula_str), data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.04257 -0.57610 -0.04728  0.70776  2.21804 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.04143    0.32867   3.169 0.001774 ** 
+age          0.02175    0.00623   3.492 0.000592 ***
+gendermale  -0.14018    0.14442  -0.971 0.332910    
+gendernoAns  0.54187    0.40280   1.345 0.180086    
+Q4_privateD -0.04328    0.04727  -0.916 0.360905    
+Q5_jobD      0.05204    0.03765   1.382 0.168466    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8751 on 198 degrees of freedom
+Multiple R-squared:  0.06501,	Adjusted R-squared:  0.0414 
+F-statistic: 2.753 on 5 and 198 DF,  p-value: 0.01983
+
+[1] "Multiple R-squared"
+[1] 0.05046462 0.04946507 0.03101604 0.03425130 0.03318368 0.06500980
